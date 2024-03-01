@@ -1,0 +1,105 @@
+:root{
+  background-color: rgb(240, 240, 241);
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.home-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.home-h1{
+  margin-bottom: 0px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 40px;
+  font-weight:600;
+}
+.home-p{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.home-button{
+  color: white;
+  background-color: blue;
+  border: none;
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.btn1,.btn2,.btn3,.btn4{
+  background-color:rgb(252, 251, 251);
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0.1px 0.1px 1px 1px rgb(134, 134, 134);
+}
+hr{
+  margin-top: 20px;
+  width: 900px;
+  margin-left: 0;
+}
+.quizApp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20%;
+  padding-bottom: 70px;
+  position: relative;
+}
+.checkAnswer{
+  color: white;
+  background-color: rgb(4, 4, 131);
+  border: none;
+  margin-top:50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+}
+.btn-held{
+  border: none;
+  background-color: rgb(176, 176, 249);
+  box-shadow: none;
+}
+.btn-div{
+  display: inline-block;
+}
+.not-correct{
+  border: none;
+  background-color: rgb(247, 166, 159);
+  box-shadow: none;
+  color: rgb(126, 125, 125);
+}
+.correct{
+  border: none;
+  background-color: rgb(130, 227, 133);
+  box-shadow: none;
+  color: rgb(45, 45, 45);
+}
+.loading{
+  margin: auto;
+}
+.score-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.play-again{
+  color: white;
+  background-color: rgb(62, 62, 150);
+  border: none;
+  font-size: 18px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 10px;
+  width: 150px;
+}
