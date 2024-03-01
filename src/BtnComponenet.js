@@ -17,7 +17,7 @@ export default function BtnComponent( props){
     props.handleClick();
     !props.checkAnswerTime && sendDataToParent();
   }*/
-
+  console.log(props)
 
   return(
     <div className='btn-div'>

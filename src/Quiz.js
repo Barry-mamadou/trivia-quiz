@@ -218,7 +218,7 @@ export default function Quiz() {
   })
 
 
-
+  console.log(datas)
   return (
     <div className="quizApp">
       {loading ? (<p className="loading">Loading...</p>) :
