@@ -66,7 +66,6 @@ export default function Quiz() {
       })  
   }, [])*/
   useEffect(() => {
-    console.log(datas)
     setDatas(dataS => {
       const newDataS = dataS.map(data => {
         const newArray = [...data.answers];
@@ -80,9 +79,8 @@ export default function Quiz() {
         return { ...data, answers: newArray };
       });
 
-      return newDataS; // Return the modified array outside the map function
+      return newDataS;
     });
-    console.log(datas)
   }, [loading]);
 
 
